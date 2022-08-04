@@ -1,0 +1,6 @@
+f=open('nitish.txt','r+')
+print(f.read())
+f.write("Magic")
+f.writelines(["Asus\n","Ankit\n","Saurav\n"])
+f.close()
+t=open('nitish.txt','r')
